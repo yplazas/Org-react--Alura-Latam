@@ -13,14 +13,14 @@
     position: relative;
 }
 
-.input__color{
+.input__color {
     position: absolute;
     top: 0;
     right: 0;
 }
 
 .titulo_equipo {
-    border-bottom: 4px solid #57C278;
+    border-bottom: 4px solid #57c278;
     padding-bottom: 10px;
     font-size: 32px;
     color: #212121;
@@ -31,4 +31,14 @@
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 15px;
+}
+
+@media (max-width: 468px) {
+    .titulo_equipo {
+        font-size: 24px;
+    }
+
+    .integrantes {
+        flex-direction: column;
+    }
 }

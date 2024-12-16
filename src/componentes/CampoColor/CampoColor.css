@@ -28,3 +28,18 @@
     outline: none;
     border: 2px dotted #6278F7;
 }
+
+
+@media (max-width: 468px) {
+
+    .campo-color label {
+        font-size: 16px;
+    }
+
+    .campo-color input {
+        font-size: 14px;
+        padding: 20px 10px;
+    }
+
+
+}

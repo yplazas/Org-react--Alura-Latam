@@ -1,27 +1,38 @@
-.campo-texto{
+.campo-texto {
     margin: 24px 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
-.campo-texto label{
-    font-family: 'Montserrat', sans-serif;
+.campo-texto label {
+    font-family: "Montserrat", sans-serif;
     font-size: 18px;
     font-weight: 600;
     display: block;
     margin-bottom: 18px;
 }
 
-.campo-texto input{
+.campo-texto input {
     width: 100%;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
-    border:none;
+    border: none;
     padding: 30px 20px;
-    outline-color: #6278F7;
+    outline-color: #6278f7;
     font-size: 16px;
     border-radius: 10px;
 }
 
 .campo-texto input::placeholder {
     color: #afafaf;
+}
+
+@media (max-width: 468px) {
+    .campo-texto label {
+        font-size: 16px;
+    }
+
+    .campo-texto input {
+        font-size: 14px;
+        padding: 20px 10px;
+    }
 }

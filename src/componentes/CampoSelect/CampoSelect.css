@@ -1,29 +1,40 @@
-.campo-select{
+.campo-select {
     margin: 24px 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
-.campo-select label{
-    font-family: 'Montserrat', sans-serif;
+.campo-select label {
+    font-family: "Montserrat", sans-serif;
     font-size: 18px;
     font-weight: 600;
     display: block;
     margin-bottom: 8px;
 }
 
-.campo-select select{
+.campo-select select {
     width: 100%;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
-    border:none;
+    border: none;
     padding: 30px 20px;
-    outline-color: #6278F7;
+    outline-color: #6278f7;
     font-size: 16px;
     border-radius: 10px;
     /* color: #afafaf; */
 }
 
-.campo-select select:focus{
+.campo-select select:focus {
     outline: none;
-    border: 2px dotted #6278F7;
+    border: 2px dotted #6278f7;
+}
+
+@media (max-width: 468px) {
+    .campo-select label {
+        font-size: 16px;
+    }
+
+    .campo-select select {
+        font-size: 14px;
+        padding: 20px 10px;
+    }
 }

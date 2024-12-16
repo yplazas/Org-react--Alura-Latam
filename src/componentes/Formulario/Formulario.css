@@ -13,10 +13,32 @@
     box-shadow: 7px 7px 15px rgba(0, 0, 0, 8%);
     border-radius: 10px;
     padding: 40px 80px;
+    display: flex;
+    flex-direction: column;
 }
 
 .form h2 {
     font-size: 32px;
     font-weight: 400;
     color: #212121;
+}
+
+@media (max-width: 868px) {
+    .form {
+        padding: 40px;
+    }
+}
+
+@media (max-width: 468px) {
+    .formulario {
+        margin: 40px 0;
+    }
+
+    .form {
+        padding: 40px 20px;
+    }
+
+    .form h2 {
+        font-size: 24px;
+    }
 }

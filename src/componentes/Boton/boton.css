@@ -1,16 +1,17 @@
-.boton-primario{
+.boton-primario {
     padding: 20px 30px;
-    background-color: #6278F7;
+    background-color: #6278f7;
     color: #fff;
     border-radius: 10px;
     margin: 15px 0 0;
     border: none;
     cursor: pointer;
+    align-self: start;
 }
 
 .boton-primario:hover {
     background-color: #778bf9;
-    color: #95FFD4;
+    color: #95ffd4;
 }
 
 .boton-primario:focus {
@@ -19,4 +20,11 @@
 
 .boton-primario:active {
     transform: scale(0.95);
+}
+
+@media (max-width: 468px) {
+    .boton-primario {
+        padding: 10px 20px;
+        align-self: center;
+    }
 }

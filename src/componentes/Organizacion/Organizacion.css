@@ -3,15 +3,15 @@
     justify-content: center;
     align-items: center;
     margin: 80px 0;
+    position: relative;
 }
-
 
 .organizacion__titulo {
     font-size: 40px;
     font-weight: 400;
-    color: #6278F7;
+    color: #6278f7;
     padding-bottom: 15px;
-    border-bottom: 4px solid #6278F7;
+    border-bottom: 4px solid #6278f7;
 }
 
 .botonAgregar {
@@ -19,9 +19,32 @@
     height: 96px;
     cursor: pointer;
     position: absolute;
-    right: 390px;
+    right: 20%;
 }
 
 .botonAgregar:active {
     transform: scale(0.98);
+}
+
+@media (max-width: 868px) {
+    .organizacion {
+        flex-direction: column;
+        margin: 40px 0 20px;
+        gap: 20px;
+    }
+
+    .botonAgregar {
+        position: static;
+    }
+}
+
+@media (max-width: 468px) {
+    .organizacion__titulo {
+        font-size: 28px;
+    }
+
+    .botonAgregar {
+        width: 72px;
+        height: 72px;
+    }
 }
