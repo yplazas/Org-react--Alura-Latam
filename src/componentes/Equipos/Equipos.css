@@ -10,6 +10,13 @@
     padding: 40px 0;
     gap: 30px;
     width: 1121px;
+    position: relative;
+}
+
+.input__color{
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .titulo_equipo {

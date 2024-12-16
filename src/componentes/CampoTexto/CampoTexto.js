@@ -1,6 +1,6 @@
 import "./CampoTexto.css"
 
-const CampoTexto = ({ titulo, placeholder, required, valor, setValor }) => {
+const CampoTexto = ({ titulo, placeholder, required, valor, setValor, type }) => {
 
     const placeholderModificado = `${placeholder}...`
     return <div className="campo-texto">
@@ -10,6 +10,7 @@ const CampoTexto = ({ titulo, placeholder, required, valor, setValor }) => {
             required={required}
             value={valor}
             onChange={(e) => setValor(e.target.value)}
+            type={type}
         />
     </div>
 }

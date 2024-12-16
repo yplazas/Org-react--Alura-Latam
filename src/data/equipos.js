@@ -1,45 +1,41 @@
+import { v4 as uuidv4 } from 'uuid';
+
+
 // lista de equipos
-export const equipos = [
+export const datos = [
     {
-        id: 1,
+        id: uuidv4(),
         titulo: "Programacion",
-        colorFondo: "#D9F7E9",
-        colorCard: "#57C278",
+        colorFondo: "#57C278",
     },
     {
-        id: 2,
+        id: uuidv4(),
         titulo: "Front End",
-        colorFondo: "#E8F8FF",
-        colorCard: "#82CFFA",
+        colorFondo: "#82CFFA",
     },
     {
-        id: 3,
+        id: uuidv4(),
         titulo: "Data Science",
-        colorFondo: "#F0F8E2",
-        colorCard: "#A6D157",
+        colorFondo: "#A6D157",
     },
     {
-        id: 4,
+        id: uuidv4(),
         titulo: "DevOps",
-        colorFondo: "#FDE7E8",
-        colorCard: "#E06B69",
+        colorFondo: "#E06B69",
     },
     {
-        id: 5,
+        id: uuidv4(),
         titulo: "UX y Diseño",
-        colorFondo: "#FAE9F5",
-        colorCard: "#DB6EBF",
+        colorFondo: "#DB6EBF",
     },
     {
-        id: 6,
+        id: uuidv4(),
         titulo: "Movil",
-        colorFondo: "#FFF5D9",
-        colorCard: "#FFBA05",
+        colorFondo: "#FFBA05",
     },
     {
-        id: 7,
+        id: uuidv4(),
         titulo: "Innovacion y  Gestion",
-        colorFondo: "#FFEEDF",
-        colorCard: "#FF8A29",
+        colorFondo: "#FF8A29",
     },
 ];

@@ -27,6 +27,16 @@
     height: 92px;
     border-radius: 10px 10px 0 0;
     margin-bottom: 75px;
+    position: relative;
+}
+
+.integrante__eliminar {
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    cursor: pointer;
 }
 
 .integrante__imagen {
@@ -42,4 +52,10 @@
     height: 100%;
     object-fit: cover;
     border-radius: 50%;
+}
+
+.integrante__like {
+    width: 27px;
+    height: 27px;
+    cursor: pointer;
 }

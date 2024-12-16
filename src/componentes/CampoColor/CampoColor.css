@@ -1,9 +1,9 @@
-.campo-texto{
+.campo-color {
     margin: 24px 0;
     font-family: 'Montserrat', sans-serif;
 }
 
-.campo-texto label{
+.campo-color label {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: 600;
@@ -11,17 +11,20 @@
     margin-bottom: 18px;
 }
 
-.campo-texto input{
+.campo-color input {
     width: 100%;
     background-color: #FFFFFF;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
-    border:none;
-    padding: 30px 20px;
+    border: none;
+    height: 70px;
+    padding: 20px;
     outline-color: #6278F7;
     font-size: 16px;
     border-radius: 10px;
+    /* color: #afafaf; */
 }
 
-.campo-texto input::placeholder {
-    color: #afafaf;
+.campo-color input:focus {
+    outline: none;
+    border: 2px dotted #6278F7;
 }
